@@ -4,3 +4,4 @@ credentials.json
 appsscript.json
 token.json
 .clasp.json
+.local.json
