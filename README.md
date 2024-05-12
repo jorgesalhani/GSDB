@@ -24,7 +24,7 @@ touch .local.json
 ## set up local spreadsheet IDs
 ```bash
 {
-  SAMPLE: 
+  Sample: "sampleSpreadsheetId"
 }
 ```
 
@@ -37,7 +37,8 @@ Scopes
 
 ```json
 {
-"development": { 
+  "Sample": "sampleSpreadsheetId", 
+  "development": { 
     "schema": {
       "engSoft": { 
         "database": {
