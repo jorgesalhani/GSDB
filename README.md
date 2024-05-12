@@ -60,8 +60,8 @@ Scopes
       }
     }
   },
-  "homologation": { ... },
-  "production": { ... }
+  "homologation": {  },
+  "production": {  }
 }
 ```
 
