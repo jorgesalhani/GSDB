@@ -29,20 +29,26 @@ touch .local.json
 ```
 
 ## Sugestion for .local.json organization
+Scopes
+
+- schema: Project (contains several spreadsheets)
+- database: Spreadsheet (contains several sheets)
+- tables: Sheets (contains several columns)
+
 ```json
 {
 "development": { 
     "schema": {
-      "engSoft": { // Project Name
+      "engSoft": { 
         "database": {
-          "Sample": { // Spreadsheet1 Name
+          "Sample": {
             "id": "spreadsheetId",
             "tables": {
               "Sheet1": ["Column1", "Column2", "Column3"],
               "Sheet2": ["Column1",	"Column2"]
             }
           },
-          "Adventure_Time": { // Spreadsheet2 Name
+          "Adventure_Time": {
             "id": "spreadsheetId",
             "tables": {
               "Sheet1": ["Column1", "Column2", "Column3"],
