@@ -1,34 +1,34 @@
-# GSDB
+## GSDB
 Google Spreadsheet Database
 
-# install
+## install
 ```bash
 npm i
 ```
 
-# create a clasp project
+## create a clasp project
 ```bash
 npx clasp create --type standalone --rootDir ./dist
 ```
 
-# deploy
+## deploy
 ```bash
 npm run deploy
 ```
 
-# create a .local.json file
+## create a .local.json file
 ```bash
 touch .local.json
 ```
 
-# set up local spreadsheet IDs
+## set up local spreadsheet IDs
 ```bash
 {
   SAMPLE: 
 }
 ```
 
-# Sugestion for .local.json organization
+## Sugestion for .local.json organization
 ```json
 {
 "development": { 
@@ -58,7 +58,7 @@ touch .local.json
 }
 ```
 
-# run
+## run
 ```bash
 node ./src/main.js
 ```
